@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<!-- feedbackForm.html -->
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/default.css">
+    <script src="scripts/feedbackFormProcess.js"></script>
+    <script src="scripts/feedbackFormValidate.js"></script>
+    <script src="scripts/feedbackCalculate.js"></script>
+    <title>Feedback</title>
+  </head>
+  <body>
+    <main class="Main">
+      <h4 class="Centered">Feedback Form</h4>
+      <form id="feedbackForm" onsubmit="feedbackFormProcess()">
+          <table>
+            <tr>
+              <td><label for="feedback">Feedback</label></td>
+              <td><textarea id="feedback" name="feedback" rows="5" cols="40"></textarea></td>
+            </tr>
+            <tr>
+              <td><label for="stars">Stars</label></td>
+              <td>
+                <label for="onestar">1</label>
+                <input id="onestar" type="radio" name="stars" value = "1" checked>
+                <label for="twostar">2</label>
+                <input id="twostar" type="radio" name="stars" value = "2" checked>
+                <label for="threestar">3</label>
+                <input id="threestar" type="radio" name="stars" value = "3" checked>
+                <label for="fourstar">4</label>
+                <input id="fourstar" type="radio" name="stars" value = "4" checked>
+                <label for="fivestar">5</label>
+                <input id="fivestar" type="radio" name="stars" value = "5" checked></td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td><label for="email">E-mail Address:</label></td>
+              <td><input id="email" type="text" name="email" size="40"></td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td><input type="submit" value="Submit"></td>
+            </tr>
+          </table>
+      </form>
+    </main>
+  </body>
+</html>
