@@ -13,12 +13,10 @@
     <header class="flex_container">
 
         <div class="flex_hitem large"> 
-            <img src="naturelogo.gif">
+            <img src="images/headshot-mw.jpg" width="200">
         </div>
 
         <div class="flex_hitem">
-            This is the address <br>
-            skipped...
         </div>
     </header>
 
@@ -28,54 +26,57 @@
             <a href="index.html">Home</a>
         </div>
         <div class="flex_item nav_item"> 
-            <a href="estore.html">e-store</a>
+            <a href="about.html">About</a>
         </div>
         <div class="flex_item nav_item"> 
-            <a href="product.html">Products</a>
+            <a href="experience.html">Experience</a>
         </div>
         <div class="flex_item nav_item"> 
-            <a href="health.html">Health</a>
+            <a href="projects.html">Projects</a>
         </div>
         <div class="flex_item nav_item"> 
-            <a href="about.html">About Us</a>
+            <a href="contact.html">Contact</a>
         </div>
         <div class="flex_item nav_item"> 
-            <a href="contact.html">Contact Us</a>
-        </div>
+          <button class="darkbtn" onclick="run()">Toggle Dark Mode</button>
+      </div>
         <div class="flex_item nav_item"> 
-            <a href="site.html">Site Map</a>
+          <div class="dropdown">
+            <button class="dropbtn">Dropdown</button>
+            <div class = "dropdown-content">
+              <a href="#">Test 1</a>
+              <a href="#">Test 2</a>
+              <a href="#">Test 3</a>
+            </div>
         </div>
 
     </nav>
 
     <section class="flex_container sec">
         <article class="flex_item large">
-            <h2>Welcome to Nature's Source:Protecting your health naturally!</h2>
-            <p>Founded in 1998, Nature's Source was created to serve those 
-                who use alternative healing methods. Offering only the highest quality vitamins,
-                 minerals, supplements and herbal remedies, Nature's Source takes great pride in 
-                 helping people live healthier, happier lives.
-            </p>
-
-            <p> Many companies that talk about customer service fail to deliver. 
-                Nature's Source exists to truly serve all the needs of their customers. 
-                Each location features dedicated on-site therapists along with knowledgeable 
-                staff who ensure that every customer receives the best quality information 
-                available. Continuing education seminars are a regular event at Nature's Source.
-            </p>
+          <p>
+            Thank you for taking the time to review my website portfolio, I will expand on this paragraph as I gain a better idea of what
+            I want in my portfolio.
+          </p>
         </article>
-
-        <aside class="flex_item">
-            <img src="outdoor4.jpg" >
-        </aside>
 
     </section>
 
-    <footer class="flex_container nav_item">
-        <div class="flex_item">
-            Nature's Source 2015 Porter Scobey and Pawan Lingras Nature's Source 2015 Porter Scobey and Pawan Lingras
-        </div>
-    </footer>
-
 </body>
 </html>
+
+<script>
+            
+  function changeColor(color) {
+      document.body.style.background = color;
+  }
+    
+  function run() {
+      if (document.body.style.background == 'rgba(0, 0, 0, 0.5)') {
+        changeColor('rgba(0,0,0,0)');
+      } else {
+        changeColor('rgba(0,0,0,0.5)');
+      }
+
+  }        
+</script>
