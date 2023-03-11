@@ -1,50 +1,81 @@
 <!DOCTYPE html>
-<!-- feedbackForm.html -->
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="css/default.css">
-    <script src="scripts/feedbackFormProcess.js"></script>
-    <script src="scripts/feedbackFormValidate.js"></script>
-    <script src="scripts/feedbackCalculate.js"></script>
-    <title>Feedback</title>
-  </head>
-  <body>
-    <main class="Main">
-      <h4 class="Centered">Feedback Form</h4>
-      <form id="feedbackForm" onsubmit="feedbackFormProcess()">
-          <table>
-            <tr>
-              <td><label for="feedback">Feedback</label></td>
-              <td><textarea id="feedback" name="feedback" rows="5" cols="40"></textarea></td>
-            </tr>
-            <tr>
-              <td><label for="stars">Stars</label></td>
-              <td>
-                <label for="onestar">1</label>
-                <input id="onestar" type="radio" name="stars" value = "1" checked>
-                <label for="twostar">2</label>
-                <input id="twostar" type="radio" name="stars" value = "2" checked>
-                <label for="threestar">3</label>
-                <input id="threestar" type="radio" name="stars" value = "3" checked>
-                <label for="fourstar">4</label>
-                <input id="fourstar" type="radio" name="stars" value = "4" checked>
-                <label for="fivestar">5</label>
-                <input id="fivestar" type="radio" name="stars" value = "5" checked></td>
-            </tr>
-          </table>
-          <table>
-            <tr>
-              <td><label for="email">E-mail Address:</label></td>
-              <td><input id="email" type="text" name="email" size="40"></td>
-            </tr>
-          </table>
-          <table>
-            <tr>
-              <td><input type="submit" value="Submit"></td>
-            </tr>
-          </table>
-      </form>
-    </main>
-  </body>
+<html>
+
+<head>
+    <title>Flexbox</title>
+    <!-- <meta name="viewport" content="width=device-width"> -->
+    <link rel="stylesheet" href="my.css">
+    <!-- <link rel="stylesheet" href="tablet.css"  media="screen and (max-width: 900px)"> -->
+</head>
+
+<body>
+
+    <header class="flex_container">
+
+        <div class="flex_hitem large"> 
+            <img src="naturelogo.gif">
+        </div>
+
+        <div class="flex_hitem">
+            This is the address <br>
+            skipped...
+        </div>
+    </header>
+
+    <nav class="flex_container">
+
+        <div class="flex_item nav_item"> 
+            <a href="index.html">Home</a>
+        </div>
+        <div class="flex_item nav_item"> 
+            <a href="estore.html">e-store</a>
+        </div>
+        <div class="flex_item nav_item"> 
+            <a href="product.html">Products</a>
+        </div>
+        <div class="flex_item nav_item"> 
+            <a href="health.html">Health</a>
+        </div>
+        <div class="flex_item nav_item"> 
+            <a href="about.html">About Us</a>
+        </div>
+        <div class="flex_item nav_item"> 
+            <a href="contact.html">Contact Us</a>
+        </div>
+        <div class="flex_item nav_item"> 
+            <a href="site.html">Site Map</a>
+        </div>
+
+    </nav>
+
+    <section class="flex_container sec">
+        <article class="flex_item large">
+            <h2>Welcome to Nature's Source:Protecting your health naturally!</h2>
+            <p>Founded in 1998, Nature's Source was created to serve those 
+                who use alternative healing methods. Offering only the highest quality vitamins,
+                 minerals, supplements and herbal remedies, Nature's Source takes great pride in 
+                 helping people live healthier, happier lives.
+            </p>
+
+            <p> Many companies that talk about customer service fail to deliver. 
+                Nature's Source exists to truly serve all the needs of their customers. 
+                Each location features dedicated on-site therapists along with knowledgeable 
+                staff who ensure that every customer receives the best quality information 
+                available. Continuing education seminars are a regular event at Nature's Source.
+            </p>
+        </article>
+
+        <aside class="flex_item">
+            <img src="outdoor4.jpg" >
+        </aside>
+
+    </section>
+
+    <footer class="flex_container nav_item">
+        <div class="flex_item">
+            Nature's Source 2015 Porter Scobey and Pawan Lingras Nature's Source 2015 Porter Scobey and Pawan Lingras
+        </div>
+    </footer>
+
+</body>
 </html>
