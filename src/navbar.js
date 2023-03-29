@@ -2,8 +2,10 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import NavDropdown from 'react-bootstrap/NavDropdown';
+import useState from 'react'
 
 function Navigationbar() {
+
   return (
     <Navbar bg="light" expand="lg">
       <Container>
@@ -19,6 +21,7 @@ function Navigationbar() {
               <NavDropdown.Item href="project3">Project 3</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link href="contact">Contact</Nav.Link>
+            <Nav.Link>Light Mode</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
