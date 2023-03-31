@@ -20,7 +20,7 @@ function Contact() {
 
     return (
     <Container>
-        <Row>
+        <Row class="mb-3 mt-3">
             <Col className='h5'>
                 Please fill out this form to get in touch!
             </Col>
@@ -50,7 +50,7 @@ function Contact() {
                 Submit
             </Button>
         </Form>
-        <Row>* denotes required field</Row>
+        <Row class="mt-3">* denotes required field</Row>
     </Container>
     );
   }

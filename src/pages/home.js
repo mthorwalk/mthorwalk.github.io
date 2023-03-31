@@ -6,9 +6,9 @@ import './css/home.css'
 function Home() {
     return (
     <Container>
-        <Row>
+        <Row class="mb-3 mt-3">
             <Col className='h1'>
-                Michael Walker - Software Engineer - TEST HASHROUTER
+                Michael Walker - Software Engineer
             </Col>
         </Row>
         <Row>
