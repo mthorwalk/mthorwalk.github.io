@@ -6,12 +6,12 @@ import Tabs from 'react-bootstrap/Tabs';
 
 function Experience() {
     return (
-      <Container>
-        <Row>
-            <Col className='h1'>
-                Experience
-            </Col>
-        </Row>
+    <Container>
+      <Row>
+          <Col className='h1'>
+              Experience
+          </Col>
+      </Row>
     <Tabs
       defaultActiveKey="education"
       id="experience-tabs"
@@ -24,7 +24,8 @@ function Experience() {
         Content about my professional history will go here
       </Tab>
       <Tab eventKey="resume" title="Resume">
-        This will be a picture of my resume, along with a download button (pdf).
+        <iframe src="https://resume-michael-walker.tiiny.site" 
+                title="resume" width="100%" height="500px" type="application/pdf"></iframe>
       </Tab>
     </Tabs>
     </Container>
