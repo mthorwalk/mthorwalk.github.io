@@ -24,8 +24,7 @@ function Experience() {
         Content about my professional history will go here
       </Tab>
       <Tab eventKey="resume" title="Resume">
-        <iframe src="https://resume-michael-walker.tiiny.site" 
-                title="resume" width="100%" height="500px" type="application/pdf"></iframe>
+        <embed src="https://resume-michael-walker.tiiny.site" title="resume" width="100%" height="1000px"></embed>
       </Tab>
     </Tabs>
     </Container>
