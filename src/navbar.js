@@ -17,9 +17,9 @@ function Navigationbar() {
             <Nav.Link as={Link} to="/about">About</Nav.Link>
             <Nav.Link as={Link} to="/experience">Experience</Nav.Link>
             <NavDropdown title="Projects" id="basic-nav-dropdown">
-              <NavDropdown.Item as={Link} to="/project1">Project 1</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/project2">Project 2</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/project3">Project 3</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/project1">Nebraska Environmental Trust - Grant Management</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/project2">Ecommerce Website</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/project3">Spotify Playlist</NavDropdown.Item>
             </NavDropdown>
             <Nav.Link as={Link} to="/contact">Contact</Nav.Link>
 

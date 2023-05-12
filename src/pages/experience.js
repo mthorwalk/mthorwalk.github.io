@@ -3,6 +3,10 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Tab from 'react-bootstrap/Tab';
 import Tabs from 'react-bootstrap/Tabs';
+import HighSchoolCard from '../components/highschool-card';
+import CollegeCard from '../components/college-card';
+import NetsmartCard from '../components/netsmart-card';
+import GEICOCard from '../components/geico-card';
 
 function Experience() {
     return (
@@ -18,10 +22,12 @@ function Experience() {
       className="mb-3"
     >
       <Tab eventKey="education" title="Education">
-        Content about my educational history will go here.
+        <HighSchoolCard></HighSchoolCard>
+        <CollegeCard></CollegeCard>
       </Tab>
       <Tab eventKey="professional" title="Professional">
-        Content about my professional history will go here
+        <NetsmartCard></NetsmartCard>
+        <GEICOCard></GEICOCard>
       </Tab>
       <Tab eventKey="resume" title="Resume">
         <embed src="https://resume-michael-walker.tiiny.site" title="resume" width="100%" height="1000px"></embed>
