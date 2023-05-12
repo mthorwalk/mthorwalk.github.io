@@ -4,7 +4,7 @@ function CollegeCard() {
   return (
     <Card>
       <Card.Header>College</Card.Header>
-      <Card.Img variant='left' src={require('../pages/images/nebraska.png')} rounded width={200} style={{marginTop:30 + 'px', marginLeft:20 + 'px'}} />
+      <Card.Img variant='left' src={require('../pages/images/nebraska.png')} rounded width={200} style={{marginTop:20 + 'px', marginLeft:-10 + 'px'}} />
       <Card.Body>
         <Card.Title>University of Nebraska - Lincoln</Card.Title>
         <Card.Text>
